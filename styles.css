@@ -1,0 +1,48 @@
+h1{ 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: left;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+    padding: 5px;
+}
+
+.contents-area { 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+header { 
+    background-color: firebrick;
+    padding: 10px 0px 10px 0px;
+}
+
+button {
+    border: 1px white;
+    border-radius: 5px 5px 5px 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    padding: 10px; 
+    margin: 2px; 
+    transition-duration: 0.4s;
+}
+
+.welcome { 
+    display: flex;
+    justify-content: flex-start;
+}
+
+p {
+    justify-content: flex-end;
+    padding-left: 20px;
+}
+
+main { 
+    background-color: darkred;
+}
+
