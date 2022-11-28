@@ -1,35 +1,44 @@
 h1{ 
-    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: flex-start;
     font-size: 30px;
-    text-align: left;
+    padding: 0px 0px 0px 22px;
     align-items: center;
+    font-family: barber-complete, sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 ul{
+    display: flex;
     list-style-type: none;
-    padding: 5px;
+    padding-left: 0px;
+    align-items: flex-end;
 }
 
 .contents-area { 
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-end;
+    padding-left: 100%;
 }
 
 header { 
+    display: flex;
     background-color: firebrick;
-    padding: 10px 0px 10px 0px;
+    padding: 0px 0px 0px 0px;
+    align-items: center;
 }
 
-button {
-    border: 1px white;
-    border-radius: 5px 5px 5px 5px;
-    font-family: 'Times New Roman', Times, serif;
+li {
+    font-family: barber-complete, sans-serif;
     font-size: large;
     padding: 10px; 
     margin: 2px; 
     transition-duration: 0.4s;
+  a:visited { color: inherit; text-decoration: underline; }
+  a:hover   { color: inherit; text-decoration: underline; }
+  a:active  { color: inherit; text-decoration: underline; }
 }
 
 .welcome { 
@@ -44,5 +53,6 @@ p {
 
 main { 
     background-color: darkred;
+    display: flex;
 }
 
