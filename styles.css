@@ -1,4 +1,9 @@
-h1{ 
+body { 
+    padding: 0px;
+    margin: 0px;
+}
+
+.bigBold{ 
     display: flex;
     justify-content: flex-start;
     font-size: 30px;
@@ -13,32 +18,35 @@ ul{
     display: flex;
     list-style-type: none;
     padding-left: 0px;
-    align-items: flex-end;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    align-items: flex-end center;
 }
 
 .contents-area { 
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    padding-bottom: 15px;
     padding-left: 100%;
 }
 
 header { 
     display: flex;
-    background-color: firebrick;
+    background-color: darkred;
     padding: 0px 0px 0px 0px;
     align-items: center;
 }
 
 li {
+    display: flex;
+    justify-content: flex-start;
     font-family: barber-complete, sans-serif;
     font-size: large;
     padding: 10px; 
     margin: 2px; 
-    transition-duration: 0.4s;
-  a:visited { color: inherit; text-decoration: underline; }
-  a:hover   { color: inherit; text-decoration: underline; }
-  a:active  { color: inherit; text-decoration: underline; }
+    text-decoration: none;
+    color: black;
 }
 
 .welcome { 
@@ -46,13 +54,78 @@ li {
     justify-content: flex-start;
 }
 
-p {
+.main-para {
     justify-content: flex-end;
     padding-left: 20px;
 }
 
 main { 
-    background-color: darkred;
+    background-color: 	#1E2952;
     display: flex;
+    font-family: greycliff-cf, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: large;
+    height: 80vh;
 }
 
+.menu {     
+    text-decoration: none;
+    color: black;
+}
+
+section {
+    display: flex;
+    height: 13.5px;
+    background-color: black;
+}
+
+.main-box { 
+    width: 13.5px;
+    height: auto;
+    background-color: black;
+}
+
+.social-media {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:flex-start;
+    font-family: greycliff-cf, sans-serif;
+    font-weight: 800;  
+    padding: 0px ;
+    padding-right: 50px;
+    padding-left: 5px;
+    padding-bottom: 7px;
+    margin: 0px;
+}
+
+.footer-msg {
+    font-family: greycliff-cf, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    padding-left: 7.5px;
+    padding-top: 19px;
+    margin: 0px;
+}
+
+footer {
+    padding: 0px;
+    margin-bottom: 0px;
+    background-color: darkred;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-container {
+    padding: 0px;
+    margin: 0px;
+}
+
+.home-img { 
+    height: auto;
+    width:fit-content;
+}
