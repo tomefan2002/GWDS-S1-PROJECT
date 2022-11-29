@@ -1,9 +1,9 @@
-body { 
+body {
     padding: 0px;
     margin: 0px;
 }
 
-.bigBold{ 
+.bigBold {
     display: flex;
     justify-content: flex-start;
     font-size: 30px;
@@ -12,9 +12,11 @@ body {
     font-family: barber-complete, sans-serif;
     font-weight: 700;
     font-style: normal;
+    text-decoration: none;
+    color: black;
 }
 
-ul{
+ul {
     display: flex;
     list-style-type: none;
     padding-left: 0px;
@@ -23,12 +25,12 @@ ul{
     align-items: flex-end center;
 }
 
-.contents-area { 
+.contents-area {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     padding-bottom: 15px;
-    padding-left: 95%;
+    padding-left: 70%;
 }
 
 .contents-area-typo {
@@ -36,11 +38,10 @@ ul{
     flex-direction: row;
     justify-content: flex-end;
     padding-bottom: 15px;
-    padding-left: 90%;
+    padding-left: 65%;
 }
 
-
-header { 
+header {
     display: flex;
     background-color: darkred;
     padding: 0px 0px 0px 0px;
@@ -52,13 +53,14 @@ li {
     justify-content: flex-start;
     font-family: barber-complete, sans-serif;
     font-size: large;
-    padding: 10px; 
-    margin: 2px; 
+    font-style: normal;
+    padding: 10px;
+    margin: 2px;
     text-decoration: none;
     color: black;
 }
 
-.welcome { 
+.welcome {
     display: flex;
     justify-content: flex-start;
 }
@@ -73,11 +75,11 @@ li {
     padding-left: 20px;
 }
 
-.typo-para { 
+.typo-para {
     padding-left: 20px;
 }
 
-.about-me { 
+.about-me {
     padding: 0px;
     padding-left: 20px;
     padding-top: 18px;
@@ -86,8 +88,8 @@ li {
     text-decoration: underline;
 }
 
-main { 
-    background-color: 	#1E2952;
+main {
+    background-color: #1E2952;
     display: flex;
     font-family: greycliff-cf, sans-serif;
     font-weight: 800;
@@ -96,7 +98,7 @@ main {
     height: 80vh;
 }
 
-.menu {     
+.menu {
     text-decoration: none;
     color: black;
 }
@@ -107,21 +109,21 @@ section {
     background-color: black;
 }
 
-.main-box { 
+.main-box {
     width: 8px;
     height: auto;
     background-color: black;
 }
 
 .social-media {
-    display:flex;
+    display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content:flex-start;
+    justify-content: flex-start;
     font-family: quasimoda, sans-serif;
     font-weight: 200;
     font-style: italic;
-    padding: 0px ;
+    padding: 0px;
     padding-right: 50px;
     padding-left: 5px;
     padding-bottom: 7px;
@@ -156,30 +158,42 @@ a {
     margin: 0px;
 }
 
-.home-img { 
+.home-img {
     height: auto;
-    width:fit-content;
+    width: fit-content;
 }
 
 .typo-imgs {
     height: auto;
-    width:fit-content;
+    width: fit-content;
 }
 
 .content-gap1 {
-    width: 2.25px;
+    display: flex;
+    width: 2.5px;
     height: 50px;
     background-color: black;
 }
+
 
 .content-gap2 {
+    display: flex;
     width: 2.5px;
     height: 50px;
     background-color: black;
 }
 
-.content-gap3 {
-    width: 2.5px;
-    height: 50px;
-    background-color: black;    
+.footer-home { 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: quasimoda, sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    font-style: italic;
+    padding-left: 8.5px;
+    padding-top: 14px;
+    margin: 0px;
+    text-decoration: none;
+    color: black;
 }
