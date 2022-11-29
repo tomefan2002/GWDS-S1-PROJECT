@@ -28,8 +28,17 @@ ul{
     flex-direction: row;
     justify-content: flex-end;
     padding-bottom: 15px;
-    padding-left: 100%;
+    padding-left: 95%;
 }
+
+.contents-area-typo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-bottom: 15px;
+    padding-left: 90%;
+}
+
 
 header { 
     display: flex;
@@ -54,9 +63,27 @@ li {
     justify-content: flex-start;
 }
 
+.about-me-area {
+    display: flex;
+    flex-direction: column;
+}
+
 .main-para {
-    justify-content: flex-end;
+    padding-top: 10px;
     padding-left: 20px;
+}
+
+.typo-para { 
+    padding-left: 20px;
+}
+
+.about-me { 
+    padding: 0px;
+    padding-left: 20px;
+    padding-top: 18px;
+    margin: 0px;
+    font-size: xx-large;
+    text-decoration: underline;
 }
 
 main { 
@@ -76,12 +103,12 @@ main {
 
 section {
     display: flex;
-    height: 13.5px;
+    height: 8px;
     background-color: black;
 }
 
 .main-box { 
-    width: 13.5px;
+    width: 8px;
     height: auto;
     background-color: black;
 }
@@ -91,19 +118,23 @@ section {
     flex-direction: row;
     align-items: flex-start;
     justify-content:flex-start;
-    font-family: greycliff-cf, sans-serif;
-    font-weight: 800;  
+    font-family: quasimoda, sans-serif;
+    font-weight: 200;
+    font-style: italic;
     padding: 0px ;
     padding-right: 50px;
     padding-left: 5px;
     padding-bottom: 7px;
     margin: 0px;
+    font-size: 12px;
 }
 
 .footer-msg {
-    font-family: greycliff-cf, sans-serif;
-    font-weight: 800;
-    font-size: 18px;
+    display: flex;
+    font-family: quasimoda, sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    font-style: italic;
     padding-left: 7.5px;
     padding-top: 19px;
     margin: 0px;
@@ -128,4 +159,27 @@ a {
 .home-img { 
     height: auto;
     width:fit-content;
+}
+
+.typo-imgs {
+    height: auto;
+    width:fit-content;
+}
+
+.content-gap1 {
+    width: 2.25px;
+    height: 50px;
+    background-color: black;
+}
+
+.content-gap2 {
+    width: 2.5px;
+    height: 50px;
+    background-color: black;
+}
+
+.content-gap3 {
+    width: 2.5px;
+    height: 50px;
+    background-color: black;    
 }
