@@ -38,7 +38,31 @@ ul {
     flex-direction: row;
     justify-content: flex-end;
     padding-bottom: 15px;
-    padding-left: 65%;
+    padding-left: 64%;
+}
+
+.contents-area-carp {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-bottom: 15px;
+    padding-left: 76%;
+}
+
+.contents-area-coding { 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-bottom: 15px;
+    padding-left: 80.5%;
+}
+
+.contents-area-reflection { 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-bottom: 15px;
+    padding-left: 66%;
 }
 
 header {
@@ -72,7 +96,8 @@ li {
 
 .main-para {
     padding-top: 10px;
-    padding-left: 20px;
+    padding-left: 14px;
+    font-size: x-large;
 }
 
 .typo-para {
@@ -81,7 +106,7 @@ li {
 
 .about-me {
     padding: 0px;
-    padding-left: 20px;
+    padding-left: 14px;
     padding-top: 18px;
     margin: 0px;
     font-size: xx-large;
@@ -108,9 +133,13 @@ section {
     height: 8px;
     background-color: black;
 }
-
-.main-box {
+.main-box-typo { 
     width: 8px;
+    height: auto;
+    background-color: black;
+}
+.main-box-home {
+    width: 40px;
     height: auto;
     background-color: black;
 }
