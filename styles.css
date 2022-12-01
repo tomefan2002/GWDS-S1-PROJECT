@@ -100,8 +100,15 @@ li {
     font-size: x-large;
 }
 
+.main-para-home {
+    padding-top: 10px;
+    padding-left: 14px;
+    font-size: xx-large;
+}
+
 .typo-para {
     padding-left: 20px;
+    font-size: xx-large;
 }
 
 .about-me {
@@ -134,7 +141,7 @@ section {
     background-color: black;
 }
 .main-box-typo { 
-    width: 8px;
+    width: 40px;
     height: auto;
     background-color: black;
 }
@@ -144,6 +151,11 @@ section {
     background-color: black;
 }
 
+.main-box-reflection {
+    width: 40px;
+    height: auto;
+    background-color: black;
+}
 .social-media {
     display: flex;
     flex-direction: row;
