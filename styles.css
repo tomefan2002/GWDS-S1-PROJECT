@@ -5,7 +5,7 @@ body {
 
 .bigBold {
     display: flex;
-    justify-content: flex-start;
+    justify-content: left;
     font-size: 30px;
     padding: 0px 0px 0px 22px;
     align-items: center;
@@ -30,7 +30,6 @@ ul {
     flex-direction: row;
     justify-content: flex-end;
     padding-bottom: 15px;
-    padding-left: 70%;
 }
 
 .contents-area-typo {
@@ -38,7 +37,7 @@ ul {
     flex-direction: row;
     justify-content: flex-end;
     padding-bottom: 15px;
-    padding-left: 64%;
+  
 }
 
 .contents-area-carp {
@@ -46,7 +45,6 @@ ul {
     flex-direction: row;
     justify-content: flex-end;
     padding-bottom: 15px;
-    padding-left: 76%;
 }
 
 .contents-area-coding { 
@@ -54,7 +52,6 @@ ul {
     flex-direction: row;
     justify-content: flex-end;
     padding-bottom: 15px;
-    padding-left: 80.5%;
 }
 
 .contents-area-reflection { 
@@ -62,7 +59,6 @@ ul {
     flex-direction: row;
     justify-content: flex-end;
     padding-bottom: 15px;
-    padding-left: 66%;
 }
 
 header {
@@ -87,6 +83,16 @@ li {
 .welcome {
     display: flex;
     justify-content: flex-start;
+    height: 100%;
+    color: black;
+}
+
+.welcome-code { 
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    color: black;
+    flex-direction: column;
 }
 
 .about-me-area {
@@ -103,7 +109,7 @@ li {
 .main-para-home {
     padding-top: 10px;
     padding-left: 14px;
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 .typo-para {
@@ -123,12 +129,12 @@ li {
 
 main {
     background-color: #1E2952;
-    display: flex;
+    
     font-family: greycliff-cf, sans-serif;
     font-weight: 800;
     font-style: italic;
     font-size: large;
-    height: 80vh;
+    
 }
 
 .menu {
@@ -147,7 +153,7 @@ section {
     background-color: black;
 }
 .main-box-home {
-    width: 40px;
+    width: 20px;
     height: auto;
     background-color: black;
 }
@@ -202,12 +208,15 @@ a {
 
 .home-img {
     height: auto;
-    width: fit-content;
 }
 
 .typo-imgs {
     height: auto;
-    width: fit-content;
+}   
+
+.carp-imgs {
+    height: auto;
+    width: 100%;
 }
 
 .content-gap1 {
@@ -238,4 +247,36 @@ a {
     margin: 0px;
     text-decoration: none;
     color: black;
+}
+
+.push {
+    margin-left: auto;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    justify-content: flex-end;
+}
+
+.sec-top { 
+    display: none;
+}
+ 
+.header-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+
+}
+
+.header-nav{ 
+    justify-content: right;
+}
+
+@media only screen and (max-width: 800px) {
+    .welcome { 
+        flex-direction: column;
+    }
+    
+    .sec-top { 
+        display: block;
+    }
 }
