@@ -37,7 +37,7 @@ ul {
     flex-direction: row;
     justify-content: flex-end;
     padding-bottom: 15px;
-  
+
 }
 
 .contents-area-carp {
@@ -47,14 +47,14 @@ ul {
     padding-bottom: 15px;
 }
 
-.contents-area-coding { 
+.contents-area-coding {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     padding-bottom: 15px;
 }
 
-.contents-area-reflection { 
+.contents-area-reflection {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -87,7 +87,7 @@ li {
     color: black;
 }
 
-.welcome-code { 
+.welcome-code {
     display: flex;
     justify-content: flex-start;
     height: 100%;
@@ -106,7 +106,7 @@ li {
     font-size: x-large;
 }
 
-.reflection-para{
+.reflection-para {
     padding-top: 10px;
     padding-left: 14px;
     font-size: large;
@@ -121,7 +121,7 @@ li {
 .typo-para {
     padding-left: 20px;
     font-size: xx-large;
-  
+
 }
 
 .about-me {
@@ -135,12 +135,12 @@ li {
 
 main {
     background-color: #1E2952;
-    
+
     font-family: greycliff-cf, sans-serif;
     font-weight: 800;
     font-style: italic;
     font-size: large;
-    
+
 }
 
 .menu {
@@ -153,11 +153,13 @@ section {
     height: 8px;
     background-color: black;
 }
-.main-box-typo { 
+
+.main-box-typo {
     width: 40px;
     height: auto;
     background-color: black;
 }
+
 .main-box-home {
     width: 20px;
     height: auto;
@@ -169,6 +171,7 @@ section {
     height: auto;
     background-color: black;
 }
+
 .social-media {
     display: flex;
     flex-direction: row;
@@ -219,7 +222,7 @@ a {
 
 .typo-imgs {
     height: auto;
-}   
+}
 
 .carp-imgs {
     height: auto;
@@ -241,7 +244,7 @@ a {
     background-color: black;
 }
 
-.footer-home { 
+.footer-home {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -263,10 +266,10 @@ a {
     justify-content: flex-end;
 }
 
-.sec-top { 
+.sec-top {
     display: none;
 }
- 
+
 .header-container {
     display: flex;
     width: 100%;
@@ -275,11 +278,11 @@ a {
 }
 
 @media only screen and (max-width: 800px) {
-    .welcome { 
+    .welcome {
         flex-direction: column;
     }
-    
-    .sec-top { 
+
+    .sec-top {
         display: block;
     }
 }
