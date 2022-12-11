@@ -121,7 +121,7 @@ li {
 .typo-para {
     padding-left: 20px;
     font-size: xx-large;
-
+    flex-wrap: wrap;
 }
 
 .about-me {
