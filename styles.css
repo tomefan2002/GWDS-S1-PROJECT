@@ -6,7 +6,7 @@ body {
 .bigBold {
     display: flex;
     justify-content: left;
-    font-size: 24px;
+    font-size: large;
     padding: 0px 0px 0px 22px;
     align-items: center;
     font-family: barber-complete, sans-serif;
