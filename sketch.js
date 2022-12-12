@@ -4,9 +4,9 @@ let xSpeed, ySpeed, xDir, yDir;
 let shapeArr = [];
 
 function windowResized() {
-    if (windowWidth<600) { 
-    resizeCanvas(windowWidth-20,windowHeight);
-  }
+  if (windowWidth<600) { 
+  resizeCanvas(windowWidth-20,windowHeight);
+}
 }
 
 function setup() {
