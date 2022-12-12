@@ -1,9 +1,12 @@
+var canvas; 
 let x, y, size;
 let xSpeed, ySpeed, xDir, yDir;
 let shapeArr = [];
 
 function setup() {
-  createCanvas(600, 600);
+  canvas = createCanvas(600, 600);
+  // canvas.position(0,0);  
+  canvas.parent("canvasContainer");
   background(color(255));
   x = width / 2;
   y = height / 2;

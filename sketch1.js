@@ -1,7 +1,9 @@
+var canvas1;
 let circRotateClock = 0;
 
 function setup() {
-  createCanvas(600, 600);
+  canvas1 = createCanvas(600, 600);
+  canvas1.parent("canvasContainer1");
   background(color(30,41,82));
   angleMode(DEGREES);
 }
