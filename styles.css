@@ -84,14 +84,14 @@ li {
     display: flex;
     justify-content: flex-start;
     height: 100%;
-    color: black;
+    color: white;
 }
 
 .welcome-code {
     display: flex;
     justify-content: flex-start;
     height: 100%;
-    color: black;
+    color: white;
     flex-direction: column;
 }
 
