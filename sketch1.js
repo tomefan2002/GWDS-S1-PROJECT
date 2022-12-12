@@ -1,6 +1,12 @@
 var canvas1;
 let circRotateClock = 0;
 
+function windowResized() {
+  if (windowWidth<600) { 
+  resizeCanvas(windowWidth-20,windowHeight);
+}
+}
+
 function setup() {
   canvas1 = createCanvas(600, 600);
   canvas1.parent("canvasContainer1");
