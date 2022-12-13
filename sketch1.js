@@ -10,17 +10,17 @@ function windowResized() {
 function setup() {
   canvas1 = createCanvas(600, 600);
   canvas1.parent("canvasContainer1");
-  background(color(30, 41, 82));
+  background(color(16, 134, 163));
   angleMode(DEGREES);
 }
 
 function draw() {
-  background(30, 41, 82, 70);
+  background(16, 134, 163, 70);
   translate(width / 2, height / 2);
   rotate(circRotateClock * 1.45);
   circRotateClock++;
   noFill();
-  stroke(139, 0, 0);
+  stroke(163, 0, 57);
   strokeWeight(2);
 
   for (let i = 0; i < 100; i++) {

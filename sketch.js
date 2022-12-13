@@ -31,7 +31,7 @@ function setup() {
 function draw() {
   noStroke();
   rectMode(CORNER);
-  fill(30, 41, 82, 50);
+  fill(16, 134, 163, 50);
   rect(0, 0, width, height);
   for (let i = 0; i < 150; i++) {
     shapeArr[i].move();
@@ -87,7 +87,7 @@ class MovingShape {
   display() {
     stroke(10);
     rectMode(CENTER);
-    fill(139, 0, 0);
+    fill(163, 0, 57);
     rect(this.x, this.y, this.size, this.size);
   }
 }
